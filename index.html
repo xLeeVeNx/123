@@ -1,0 +1,1759 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>Руки</title>
+
+  <link rel="stylesheet" href="css/main.min.css?_v=20220211163403" />
+
+  <script src="js/main.min.js?_v=20220211163403" defer></script>
+</head>
+
+  <body>
+    <header class="header" id="header">
+      <nav class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <ul class="header__menu">
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#header">Главная</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#directions">Направления</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#stuffs">Специалисты</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#guarantees">Гарантии</a>
+              </li>
+            </ul>
+
+            <a class="header__logo" href="#header">
+              <picture><source srcset="images/logo.webp" type="image/webp"><img class="header__logo-image" src="images/logo.png" alt="Логотип" /></picture>
+            </a>
+
+            <ul class="header__socials">
+              <li class="header__social">
+                <a
+                  class="header__social-link"
+                  href="https://www.facebook.com/centrruki/"
+                  target="_blank"
+                >
+                  <svg class="header__social-icon">
+                    <use xlink:href="images/icons/icons.svg#facebook" />
+                  </svg>
+                </a>
+              </li>
+              <li class="header__social">
+                <a
+                  class="header__social-link"
+                  href="https://wa.me/+79774102748"
+                  target="_blank"
+                >
+                  <svg class="header__social-icon">
+                    <use xlink:href="images/icons/icons.svg#whatsapp" />
+                  </svg>
+                </a>
+              </li>
+              <li class="header__social">
+                <a
+                  class="header__social-link"
+                  href="https://t.me/rukicenter"
+                  target="_blank"
+                >
+                  <svg class="header__social-icon">
+                    <use xlink:href="images/icons/icons.svg#telegram" />
+                  </svg>
+                </a>
+              </li>
+              <li class="header__social">
+                <a
+                  class="header__social-link"
+                  href="https://www.instagram.com/ruki.center/"
+                  target="_blank"
+                >
+                  <svg class="header__social-icon">
+                    <use xlink:href="images/icons/icons.svg#instagram" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+
+            <div class="header__buttons">
+              <a
+                class="header__button"
+                href="https://school.ruki.center"
+                target="_blank"
+              >
+                <span>Школа</span>
+              </a>
+              <a class="header__button" href="https://ruki.cab" target="_blank">
+                <span>Коворкинг</span>
+              </a>
+            </div>
+
+            <a class="header__number" href="tel:+79774102748">
+              <svg class="header__number-icon">
+                <use xlink:href="images/icons/icons.svg#tel" />
+              </svg>
+              <span class="header__number-text">+ 7 977 410 27 48 </span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="header__content">
+        <div class="header__balls">
+          <div class="header__ball"><span></span></div>
+          <div class="header__ball"><span></span></div>
+          <div class="header__ball"><span></span></div>
+          <div class="header__ball"><span></span></div>
+          <div class="header__ball"><span></span></div>
+        </div>
+        <div class="container">
+          <div class="header__content-inner">
+            <div class="header__left">
+              <p class="header__left-text">Без медикаментов от 6000 руб.</p>
+              <form class="header__left-form">
+                <h2 class="header__form-title">
+                  Сбалансируйте все системы организма
+                </h2>
+                <p class="header__subtitle">
+                  Сеансы под руководством специалистов с
+                  <span>десятилетним опытом</span> работы
+                </p>
+                <div class="header__form-box">
+                  <div class="header__select">
+                    <div class="header__dropdown">
+                      <button class="header__dropdown-button" type="button">
+                        Остеопат
+                      </button>
+                      <ul class="header__dropdown-list">
+                        <li
+                          class="header__dropdown-list-item"
+                          data-value="osciopat"
+                        >
+                          Остеопат
+                        </li>
+                        <li
+                          class="header__dropdown-list-item"
+                          data-value="nutriciolog"
+                        >
+                          Нутрициолог
+                        </li>
+                        <li
+                          class="header__dropdown-list-item"
+                          data-value="aromaterapeft"
+                        >
+                          Ароматерапевт
+                        </li>
+                        <li
+                          class="header__dropdown-list-item"
+                          data-value="cigun"
+                        >
+                          Цигун
+                        </li>
+                        <li
+                          class="header__dropdown-list-item"
+                          data-value="psychoterapeft"
+                        >
+                          Психотерапевт
+                        </li>
+                        <li
+                          class="header__dropdown-list-item"
+                          data-value="massage"
+                        >
+                          Массажист
+                        </li>
+                        <li
+                          class="header__dropdown-list-item"
+                          data-value="intim"
+                        >
+                          Интимная гимнастика
+                        </li>
+                      </ul>
+                      <input
+                        class="header__hiden_input"
+                        name="select"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <input
+                    class="header__phone"
+                    placeholder="+7  _  _  _  -  _  _  _  -  _  _  -  _  _"
+                    name="phone"
+                  />
+                </div>
+                <button class="header__form-button" type="button">
+                  <svg class="header__form-button-icon">
+                    <use xlink:href="images/icons/icons.svg#hand" />
+                  </svg>
+                  <span>Получить консультацию</span>
+                </button>
+              </form>
+            </div>
+            <div class="header__right">
+              <ul class="header__items">
+                <li class="header__item">
+                  <svg class="header__item-img">
+                    <use xlink:href="images/icons/icons.svg#header-item1" />
+                  </svg>
+                  <p class="header__item-text">
+                    Остеопатия, массаж, мануальные и висцеральные практики
+                  </p>
+                </li>
+                <li class="header__item">
+                  <svg class="header__item-img">
+                    <use xlink:href="images/icons/icons.svg#header-item2" />
+                  </svg>
+                  <p class="header__item-text">
+                    Цигун, йога, интимная гимнастика
+                  </p>
+                </li>
+                <li class="header__item">
+                  <svg class="header__item-img">
+                    <use xlink:href="images/icons/icons.svg#header-item3" />
+                  </svg>
+                  <p class="header__item-text">
+                    Онтологические сеансы, психотерапия
+                  </p>
+                </li>
+                <li class="header__item">
+                  <svg class="header__item-img">
+                    <use xlink:href="images/icons/icons.svg#header-item4" />
+                  </svg>
+                  <p class="header__item-text">
+                    Нутрициология, ароматерапия, фито-оздоровление
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a class="header__next next" href="#directions">
+          <div class="next__box">
+            <svg class="next__image">
+              <use xlink:href="images/icons/icons.svg#next" />
+            </svg>
+          </div>
+          <p class="next__text">Давайте начнем</p>
+        </a>
+      </div>
+    </header>
+    <main class="main">
+      <section class="services" id="directions">
+        <div class="container">
+          <div class="services__inner">
+            <h2 class="services__title title">Услуги</h2>
+            <ul class="services__items">
+              <div class="services__left">
+                <li class="services__item">
+                  <div class="services__box">
+                    <span class="services__name">Остеопатия</span>
+                    <button class="services__button"></button>
+                  </div>
+                  <p class="services__text">
+                    Система лечения в основе которой лежит представление о том,
+                    что решающее значение имеют связи между работой тех или иных
+                    органов и мышечно-скелетной структурой. Наибольший эффект
+                    остеопатические сеансы дают при применении в комплексе с
+                    другими практиками. Рекомендуется для профилактики,
+                    диагностики и лечения заболеваний костей, мышц и суставов.
+                  </p>
+                </li>
+                <li class="services__item">
+                  <div class="services__box">
+                    <span class="services__name">Онтологические сеансы</span>
+                    <button class="services__button"></button>
+                  </div>
+                  <p class="services__text">
+                    Вид трансформационной психотерапии и глубокой работы с нашей
+                    физической, психической и биохимической историей. В
+                    онтологическом сеансе используется опыт кинезиологии,
+                    терапии резонансов, ароматерапии, гомеопатии, остеопатии,
+                    лечение кристаллами, психотерапевтическая и расстановочная
+                    работа. Каждый сеанс это уникальная история, рассказанная
+                    телом через систему мудр, первые из которых, использовались
+                    в древних традициях.
+                  </p>
+                </li>
+                <li class="services__item">
+                  <div class="services__box">
+                    <span class="services__name">Нутрициология</span>
+                    <button class="services__button"></button>
+                  </div>
+                  <p class="services__text">
+                    Это наука, которая изучает питание, его влияние на
+                    жизнедеятельность человеческого организма, а также
+                    занимается вопросами восполнения дефицита питательных
+                    веществ. Нутрициология находится на пересечении таких
+                    дисциплин как биология, физиология, химия, психология,
+                    социология, фармакогнозия.
+                  </p>
+                </li>
+                <li class="services__item">
+                  <div class="services__box">
+                    <span class="services__name">Ароматерапия</span>
+                    <button class="services__button"></button>
+                  </div>
+                  <p class="services__text">
+                    Это древний способ лечения с помощью эфирных масел, которые
+                    обладают сильными свойствами. Эфирные масла являются именно
+                    лечебными средствами при использовании которых необходимо
+                    соблюдать дозировку.
+                  </p>
+                </li>
+                <li class="services__item">
+                  <div class="services__box">
+                    <span class="services__name">Массаж</span>
+                    <button class="services__button"></button>
+                  </div>
+                  <p class="services__text">
+                    Это лечебное воздействие на организм через кожу. В массаж
+                    входят такие приемы как поглаживание, растирание,
+                    разминание, вибрация и похлопывание. Такое воздействие на
+                    мышцы раздражает нервные окончания, которые в свою очередь
+                    посылают импульсы в мозг.
+                  </p>
+                </li>
+              </div>
+              <div class="services__right">
+                <li class="services__item">
+                  <div class="services__box">
+                    <span class="services__name">Цигун</span>
+                    <button class="services__button"></button>
+                  </div>
+                  <p class="services__text">
+                    Это китайская система традиционных дыхательных и
+                    двигательных упражнений основанная на культурно-историческом
+                    наследии Китая и концепциях Традиционной Китайской Медицины
+                    (ТКМ). Адаптивная функциональная позитурально-двигательная
+                    дыхательная гимнастика, физкультура геронтологической
+                    направленности с выраженным психо-нейро-эндокринно-иммунным
+                    регулирующим компонентом и лечебно-оздоровительным эффектом.
+                  </p>
+                </li>
+                <li class="services__item">
+                  <div class="services__box">
+                    <span class="services__name">Йога</span>
+                    <button class="services__button"></button>
+                  </div>
+                  <p class="services__text">
+                    Это очень древняя практика для поиска целостности в занятиях
+                    и в жизни. Йога состоит из асан (упражнений), дыхательных
+                    техник и медитаций (пассивных и активных), поэтому развивает
+                    человека всесторонне через тело, ум и эмоции. Хотя
+                    изначально йога это духовная практика. В больших городах
+                    духовность занимает её малую часть.
+                  </p>
+                </li>
+                <li class="services__item">
+                  <div class="services__box">
+                    <span class="services__name">Интимная гимнастика</span>
+                    <button class="services__button"></button>
+                  </div>
+                  <p class="services__text">
+                    Это система упражнений, направленных на укрепление мышц и
+                    связок тазового дна и всего тела. Для улучшения
+                    кровоснабжения и работы внутренних органов малого таза.
+                  </p>
+                </li>
+                <li class="services__item">
+                  <div class="services__box">
+                    <span class="services__name">Психотерапия</span>
+                    <button class="services__button"></button>
+                  </div>
+                  <p class="services__text">
+                    Дословно с греческого ‘психотерапия’ переводится как ‘уход
+                    за душой’ или ‘лечение души’. Психотерапевт работает с
+                    внутренними конфликтами человека на которые (пока они
+                    актуальны) уходит большое количество энергии. Тем самым
+                    улучшается качество отношений и жизни в целом. Современные
+                    подходы психотерапии работают с различными аспектами жизни:
+                    наши взаимоотношения, здоровье, доход, развитие собственного
+                    дела.
+                  </p>
+                </li>
+                <li class="services__item">
+                  <div class="services__box">
+                    <span class="services__name">Медитация Майндфулнесс</span>
+                    <button class="services__button"></button>
+                  </div>
+                  <p class="services__text">
+                    Мы практикуем светское направление майндфулнес. В нем много
+                    разных практик осознанности. Основное отличие от других
+                    направлений это то, что мы практикуем внимательность к тому,
+                    что есть сейчас. Мы учимся направлять внимание на текущий
+                    опыт, на нашу жизнь. Начинаем более детально осознавать свое
+                    тело, распознавать чувства и мысли и не вовлекаться в
+                    постоянный мыслепоток. Практики внимательности позволяют
+                    вытащить себя из привычного транса собственных постоянных
+                    мыслей и тревог. И войти в более ясный контакт с тем, что
+                    происходит в нашей жизни.
+                  </p>
+                </li>
+              </div>
+            </ul>
+            <a class="services__next next" href="#about">
+              <div class="next__box">
+                <svg class="next__image">
+                  <use xlink:href="images/icons/icons.svg#next" />
+                </svg>
+              </div>
+              <p class="next__text">Дальше</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__inner">
+          <div class="container">
+            <h2 class="title">О центре</h2>
+            <div class="about__cards">
+              <div class="about__card-inner">
+                <div class="about__card">
+                  <p class="about__card-title">
+                    <svg class="about__card-icon">
+                      <use
+                        xlink:href="images/icons/icons.svg#about-location"
+                      />
+                    </svg>
+                    1. Локация
+                  </p>
+                  <p class="about__card-text">
+                    Расположение нашего центра не в тесных улицах центра города,
+                    а в комфортном, современном районе Москвы на Рублёвском
+                    шоссе в 12 минутах пешком от станции метро Молодежная.На
+                    территории имеется бесплатная парковка, рядом располагаются
+                    прекрасные заведения где можно пообедать или поужинать.
+                  </p>
+                </div>
+              </div>
+              <div class="about__card-inner">
+                <div class="about__card">
+                  <p class="about__card-title">
+                    <svg class="about__card-icon">
+                      <use
+                        xlink:href="images/icons/icons.svg#about-cabinets"
+                      />
+                    </svg>
+                    2. Кабинеты
+                  </p>
+                  <p class="about__card-text">
+                    Вас ждут уютные кабинеты с приветливыми специалистами
+                    высочайшего уровня, которые помогут Вам обрести здоровье и
+                    хорошее самочувствие.
+                  </p>
+                </div>
+              </div>
+              <div class="about__card-inner">
+                <div class="about__card">
+                  <p class="about__card-title">
+                    <svg class="about__card-icon">
+                      <use xlink:href="images/icons/icons.svg#about-kitchen" />
+                    </svg>
+                    3. Кухня
+                  </p>
+                  <p class="about__card-text">
+                    Мы всегда рады предложить Вам ароматный чай на травах и
+                    легкое чтение.
+                  </p>
+                </div>
+              </div>
+              <div class="about__card-inner">
+                <div class="about__card">
+                  <p class="about__card-title">
+                    <svg class="about__card-icon">
+                      <use
+                        xlink:href="images/icons/icons.svg#about-relax-zone"
+                      />
+                    </svg>
+                    4. Зоны отдыха
+                  </p>
+                  <p class="about__card-text">
+                    Если Вы пришли пораньше, то в фойе нашего пространства
+                    находится диван или кресло. При этом вы будете наслаждаться
+                    приятной и расслабляющей музыкой.
+                  </p>
+                </div>
+              </div>
+              <div class="about__card-inner">
+                <div class="about__card">
+                  <p class="about__card-title">
+                    <svg class="about__card-icon">
+                      <use
+                        xlink:href="images/icons/icons.svg#about-atmosphere"
+                      />
+                    </svg>
+                    5. Атмосфера
+                  </p>
+                  <p class="about__card-text">
+                    Наш центр это живое пространство попадая в которое Вы
+                    становитесь частью единого целого. В нём открывается
+                    атмосфера доверия и внутреннего спокойствия. Наш
+                    администратор поможет Вам если вы у нас в гостях первый раз
+                    и с радостью ответит на все Ваши вопросы.
+                  </p>
+                </div>
+              </div>
+              <div class="about__card-inner">
+                <div class="about__card">
+                  <p class="about__card-title">
+                    <svg class="about__card-icon">
+                      <use xlink:href="images/icons/icons.svg#about-wifi" />
+                    </svg>
+                    6. Wi-Fi
+                  </p>
+                  <p class="about__card-text">
+                    Если Вам понадобится решить срочный вопрос по бизнесу или
+                    работе то для Вас в РУКИ.Центр имеется высоскоростной
+                    интернет и ноутбук.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a class="about__next next" href="#advantages">
+              <div class="next__box">
+                <svg class="next__image">
+                  <use xlink:href="images/icons/icons.svg#next" />
+                </svg>
+              </div>
+              <p class="next__text">Дальше</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages" id="advantages">
+        <div class="advantages__inner">
+          <div class="container">
+            <h2 class="advantages__title title">Наши преимущества</h2>
+            <div class="advantages__slider">
+              <div class="advantages__slides-container">
+                <div class="advantages__slide advantages__slide_active">
+                  <p class="advantages__slide-name">Опытные сотрудники</p>
+                  <p class="advantages__slide-text">
+                    Каждый специалист прошёл соответствующее обучение, имеет за
+                    плечами многолетний опыт работы, хорошо разбирается в том,
+                    как устроен организм человека, что в свою очередь позволяет
+                    абсолютно каждому посетителю нашего центра при помощи
+                    грамотного специалиста сформировать для себя программу,
+                    которая будет ориентирована на удовлетворение именно Ваших
+                    индивидуальных потребностей.
+                  </p>
+                </div>
+                <span class="advantages__slide-num active"></span>
+                <div class="advantages__slide">
+                  <p class="advantages__slide-name">Безопасность</p>
+                  <p class="advantages__slide-text">
+                    РУКИ.Центр специализируется на телесных практиках под
+                    руководством опытных инструкторов цель которых без
+                    медикаментов убрать депрессию, боли в спине, обеспечить
+                    бодрость и лёгкость за счёт различных практик. Такие
+                    практики стоит выполнять самостоятельно только при наличии
+                    познаний анатомии человека и понимания собственных
+                    особенностей организма, ибо в противном случае можно только
+                    навредить себе. Все услуги в нашем центре абсолютно
+                    безопасны и оказывают положительное влияние на организм
+                    человека.
+                  </p>
+                </div>
+                <span class="advantages__slide-num"></span>
+                <div class="advantages__slide">
+                  <p class="advantages__slide-name">Санитарные условия</p>
+                  <p class="advantages__slide-text">
+                    В нашем центре строго соблюдается чистота, проводится
+                    регулярная очистка воздуха, соблюдаются
+                    санитарно-эпидемиологические требования в связи с COVID и не
+                    только. Используемые в процессе оказания услуг предметы
+                    применяются единожды, либо проходят чистку в
+                    специализированных учреждениях.
+                  </p>
+                </div>
+                <span class="advantages__slide-num"></span>
+                <div class="advantages__slide">
+                  <p class="advantages__slide-name">Сервис</p>
+                  <p class="advantages__slide-text">
+                    Мы внимательно и с большим уважением относимся к каждому
+                    посетителю нашего центра. Обеспечиваем комфортную среду при
+                    прохождении практик. Вовремя напоминаем о предстоящих
+                    сеансах. Оперативно реагируем на запросы клиентов по всем
+                    популярным каналам коммуникации.
+                  </p>
+                </div>
+                <span class="advantages__slide-num"></span>
+                <button class="advantages__slide-button" type="button"></button>
+              </div>
+              <div class="advantages__box">
+                <div class="advantages__dots">
+                  <div
+                    class="advantages__dot advantages__dot_active"
+                    id="stuff"
+                  >
+                    <svg class="advantages__dot-image">
+                      <use
+                        xlink:href="images/icons/icons.svg#advantages-stuff"
+                      />
+                    </svg>
+                    <p class="advantages__dot-text">Опытные сотрудники</p>
+                  </div>
+                  <div class="advantages__dot" id="security">
+                    <svg class="advantages__dot-image">
+                      <use
+                        xlink:href="images/icons/icons.svg#advantage-security"
+                      />
+                    </svg>
+                    <p class="advantages__dot-text">Безопасность</p>
+                  </div>
+                  <div class="advantages__dot" id="medic">
+                    <svg class="advantages__dot-image">
+                      <use
+                        xlink:href="images/icons/icons.svg#advantage-medic"
+                      />
+                    </svg>
+                    <p class="advantages__dot-text">Санитарные условия</p>
+                  </div>
+                  <div class="advantages__dot" id="service">
+                    <svg class="advantages__dot-image">
+                      <use
+                        xlink:href="images/icons/icons.svg#advantage-service"
+                      />
+                    </svg>
+                    <p class="advantages__dot-text">Сервис</p>
+                  </div>
+                </div>
+                <button class="advantages__more-button" type="button">
+                  <svg class="advantages__more-button-icon">
+                    <use xlink:href="images/icons/icons.svg#hand" />
+                  </svg>
+                  <span>Узнать больше</span>
+                </button>
+              </div>
+            </div>
+            <a class="advantages__next next" href="#stuffs">
+              <div class="next__box">
+                <svg class="next__image">
+                  <use xlink:href="images/icons/icons.svg#next" />
+                </svg>
+              </div>
+              <p class="next__text">Дальше</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="stuff" id="stuffs">
+        <div class="stuff__inner">
+          <div class="container">
+            <h2 class="title stuff__title">Специалисты центра</h2>
+            <div class="stuff__tabs">
+              <button
+                class="stuff__tab stuff__tab_active"
+                type="button"
+                id="all"
+              >
+                Все
+              </button>
+              <button class="stuff__tab" type="button" id="treatment">
+                Лечение
+              </button>
+              <button class="stuff__tab" type="button" id="reduction">
+                Восстановление
+              </button>
+              <button class="stuff__tab" type="button" id="recovery">
+                Оздоровление
+              </button>
+            </div>
+            <div class="stuff__cards">
+              <div class="stuff__cards-content active">
+                <div class="stuff__card">
+                  <picture><source srcset="images/maxim-malcev.webp" type="image/webp"><img src="images/maxim-malcev.png" alt="Максим Мальцев" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Максим Мальцев</p>
+                    <p class="stuff__type">Цигун</p>
+                    <p class="stuff__experience">Опыт более 20 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/derevenskaya-darya.webp" type="image/webp"><img src="images/derevenskaya-darya.png" alt="Деревенская Дарья" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Деревенская Дарья</p>
+                    <p class="stuff__type">Интимная гимнастика</p>
+                    <p class="stuff__experience">Опыт более 17 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/mizinova-mariya.webp" type="image/webp"><img src="images/mizinova-mariya.png" alt="Мизинова Мария" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Мизинова Мария</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 13 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/sirotkyna-nataliya.webp" type="image/webp"><img src="images/sirotkyna-nataliya.png" alt="Сироткина Наталья" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Сироткина Наталья</p>
+                    <p class="stuff__type">Психотерапевт</p>
+                    <p class="stuff__experience">Опыт более 15 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/shunin-matvey.webp" type="image/webp"><img src="images/shunin-matvey.png" alt="Шунин Матвей" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Шунин Матвей</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 13 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/petrov-vladimir.webp" type="image/webp"><img src="images/petrov-vladimir.png" alt="Петров Владимир" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Петров Владимир</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 30 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/nataliya-kuzmina.webp" type="image/webp"><img src="images/nataliya-kuzmina.png" alt="Наталья Кузнецова" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Наталья Кузнецова</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 6 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/malihina-nataliya.webp" type="image/webp"><img src="images/malihina-nataliya.png" alt="Малыхина Наталья" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Малыхина Наталья</p>
+                    <p class="stuff__type">Ароматерапевт</p>
+                    <p class="stuff__experience">Опыт более 2-х лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/petrenko-mikhail.webp" type="image/webp"><img src="images/petrenko-mikhail.png" alt="Петренко Михаил" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Петренко Михаил</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 5 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/ekaterina-mezhevetinova.webp" type="image/webp"><img src="images/ekaterina-mezhevetinova.png" alt="Екатерина Межевитинова" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Екатерина Межевитинова</p>
+                    <p class="stuff__type">Нутрициолог</p>
+                    <p class="stuff__experience">Опыт более 6 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/manzireva-anna.webp" type="image/webp"><img src="images/manzireva-anna.png" alt="Манзырева Анна" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Манзырева Анна</p>
+                    <p class="stuff__type">Психотерапевт</p>
+                    <p class="stuff__experience">Опыт более 11 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/mizim-sergay.webp" type="image/webp"><img src="images/mizim-sergay.png" alt="Мизим Сергей" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Мизим Сергей</p>
+                    <p class="stuff__type">Массажист</p>
+                    <p class="stuff__experience">Опыт более 8 лет</p>
+                  </div>
+                </div>
+              </div>
+              <div class="stuff__cards-content">
+                <div class="stuff__card">
+                  <picture><source srcset="images/shunin-matvey.webp" type="image/webp"><img src="images/shunin-matvey.png" alt="Шунин Матвей" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Шунин Матвей</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 13 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/petrov-vladimir.webp" type="image/webp"><img src="images/petrov-vladimir.png" alt="Петров Владимир" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Петров Владимир</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 30 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/mizinova-mariya.webp" type="image/webp"><img src="images/mizinova-mariya.png" alt="Мизинова Мария" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Мизинова Мария</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 13 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/nataliya-kuzmina.webp" type="image/webp"><img src="images/nataliya-kuzmina.png" alt="Наталья Кузнецова" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Наталья Кузнецова</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 6 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/petrenko-mikhail.webp" type="image/webp"><img src="images/petrenko-mikhail.png" alt="Петренко Михаил" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Петренко Михаил</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 5 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/ekaterina-mezhevetinova.webp" type="image/webp"><img src="images/ekaterina-mezhevetinova.png" alt="Екатерина Межевитинова" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Екатерина Межевитинова</p>
+                    <p class="stuff__type">Нутрициолог</p>
+                    <p class="stuff__experience">Опыт более 6 лет</p>
+                  </div>
+                </div>
+              </div>
+              <div class="stuff__cards-content">
+                <div class="stuff__card">
+                  <picture><source srcset="images/petrenko-mikhail.webp" type="image/webp"><img src="images/petrenko-mikhail.png" alt="Петренко Михаил" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Петренко Михаил</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 5 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/manzireva-anna.webp" type="image/webp"><img src="images/manzireva-anna.png" alt="Манзырева Анна" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Манзырева Анна</p>
+                    <p class="stuff__type">Психотерапевт</p>
+                    <p class="stuff__experience">Опыт более 11 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/sirotkyna-nataliya.webp" type="image/webp"><img src="images/sirotkyna-nataliya.png" alt="Сироткина Наталья" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Сироткина Наталья</p>
+                    <p class="stuff__type">Психотерапевт</p>
+                    <p class="stuff__experience">Опыт более 15 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/petrenko-mikhail.webp" type="image/webp"><img src="images/petrenko-mikhail.png" alt="Петренко Михаил" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Петренко Михаил</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 5 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/manzireva-anna.webp" type="image/webp"><img src="images/manzireva-anna.png" alt="Манзырева Анна" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Манзырева Анна</p>
+                    <p class="stuff__type">Психотерапевт</p>
+                    <p class="stuff__experience">Опыт более 11 лет</p>
+                  </div>
+                </div>
+              </div>
+              <div class="stuff__cards-content">
+                <div class="stuff__card">
+                  <picture><source srcset="images/maxim-malcev.webp" type="image/webp"><img src="images/maxim-malcev.png" alt="Максим Мальцев" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Максим Мальцев</p>
+                    <p class="stuff__type">Цигун</p>
+                    <p class="stuff__experience">Опыт более 20 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/derevenskaya-darya.webp" type="image/webp"><img src="images/derevenskaya-darya.png" alt="Деревенская Дарья" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Деревенская Дарья</p>
+                    <p class="stuff__type">Интимная гимнастика</p>
+                    <p class="stuff__experience">Опыт более 17 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/ekaterina-mezhevetinova.webp" type="image/webp"><img src="images/ekaterina-mezhevetinova.png" alt="Екатерина Межевитинова" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Екатерина Межевитинова</p>
+                    <p class="stuff__type">Нутрициолог</p>
+                    <p class="stuff__experience">Опыт более 6 лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/malihina-nataliya.webp" type="image/webp"><img src="images/malihina-nataliya.png" alt="Малыхина Наталья" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Малыхина Наталья</p>
+                    <p class="stuff__type">Ароматерапевт</p>
+                    <p class="stuff__experience">Опыт более 2-х лет</p>
+                  </div>
+                </div>
+                <div class="stuff__card">
+                  <picture><source srcset="images/nataliya-kuzmina.webp" type="image/webp"><img src="images/nataliya-kuzmina.png" alt="Наталья Кузнецова" class="stuff__photo" /></picture>
+                  <div class="stuff__info">
+                    <p class="stuff__name">Наталья Кузнецова</p>
+                    <p class="stuff__type">Остеопат</p>
+                    <p class="stuff__experience">Опыт более 6 лет</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="stuff__next next" href="#partners">
+              <div class="next__box">
+                <svg class="next__image">
+                  <use xlink:href="images/icons/icons.svg#next" />
+                </svg>
+              </div>
+              <p class="next__text">Дальше</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="partners" id="partners">
+        <div class="partners__inner">
+          <div class="container">
+            <h2 class="partners__title">Наши партнеры</h2>
+            <div class="partners__cards">
+              <div class="partners__card">
+                <picture><source srcset="images/uvics-active.webp" type="image/webp"><img src="images/uvics-active.png" alt="Uvics" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/sashera-active.webp" type="image/webp"><img src="images/sashera-active.png" alt="Sashera" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/raduga-active.webp" type="image/webp"><img src="images/raduga-active.png" alt="Raduga" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/celitel-active.webp" type="image/webp"><img src="images/celitel-active.png" alt="Celitel" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/ortodon-active.webp" type="image/webp"><img src="images/ortodon-active.png" alt="Ortodon" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/kuznecova-active.webp" type="image/webp"><img src="images/kuznecova-active.png" alt="Kuznecova" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/gumivit-active.webp" type="image/webp"><img src="images/gumivit-active.png" alt="Gumivit" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/sahalin-active.webp" type="image/webp"><img src="images/sahalin-active.png" alt="Sahalin" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/spirit-active.webp" type="image/webp"><img src="images/spirit-active.png" alt="Spirit" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/solagift-active.webp" type="image/webp"><img src="images/solagift-active.png" alt="Solagift" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/korni-active.webp" type="image/webp"><img src="images/korni-active.png" alt="Kornu" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/nutribiotic-active.webp" type="image/webp"><img src="images/nutribiotic-active.png" alt="Nutribiotic" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/hemani-active.webp" type="image/webp"><img src="images/hemani-active.png" alt="Hemani" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/dottera-active.webp" type="image/webp"><img src="images/dottera-active.png" alt="Dottera" class="partners__image" /></picture>
+              </div>
+              <div class="partners__card">
+                <picture><source srcset="images/avicenna-active.webp" type="image/webp"><img src="images/avicenna-active.png" alt="Avicenna" class="partners__image" /></picture>
+              </div>
+            </div>
+            <a class="partners__next next" href="#service-clusters">
+              <div class="next__box">
+                <svg class="next__image">
+                  <use xlink:href="images/icons/icons.svg#next" />
+                </svg>
+              </div>
+              <p class="next__text">Дальше</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="service-clusters" id="service-clusters">
+        <div class="container">
+          <div class="service-clusters__inner">
+            <h2 class="title">Кластеры услуг</h2>
+            <div class="service-clusters__tabs">
+              <button class="service-clusters__tab active" type="button">
+                Групповые
+              </button>
+              <button class="service-clusters__tab" type="button">
+                Индивидуальные
+              </button>
+              <button class="service-clusters__tab" type="button">Дети</button>
+            </div>
+            <div class="service-clusters__items">
+              <div class="service-clusters__content active">
+                <div class="service-clusters__content-inner">
+                  <div class="service-clusters__item">
+                    <div class="service-clusters__name">
+                      Медитация <span>Майндфуднес</span>
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час </span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >от 4-5 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Выход из автопилота и постоянного потока мыслей в
+                          голове
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Выход из автопилота и постоянного потока мыслей в
+                          голове
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 1000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="service-clusters__item">
+                    <div class="service-clusters__name">
+                      Интимная гимнастика
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >от 4 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Укрепление женского здоровья, продление молодости и
+                          выстраивание близости с мужем
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Улучшение Вашего либидо за счёт специальных техник
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 1500 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="service-clusters__item">
+                    <div class="service-clusters__name">Цигун</div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >1 час 30 мин.</span
+                        >
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >от 4-5 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Укрепление физического и эмоционального здоровья
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Знакомство с анатомией и работой с разными группами
+                          мышц
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 1000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper service-clusters__content">
+                <div class="swiper-wrapper service-clusters__content-inner">
+                  <div class="swiper-slide service-clusters__item">
+                    <div class="service-clusters__name">
+                      Остеопатический
+                      <span>прием</span>
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >от 4-5 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Устранение причин вызвавших болезнь или боль
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Активизация защитных сил организма
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 6000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide service-clusters__item">
+                    <div class="service-clusters__name">
+                      Онтологический прием
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >1 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Позволит прийти в точку психического и телесного
+                          здоровья, что поможет найти откуда берет начало та или
+                          иная проблема и эффективно её излечить Активизация
+                          защитных сил организма
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 15000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide service-clusters__item">
+                    <div class="service-clusters__name">
+                      Интимная гимнастика
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >1 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Укрепление женского здоровья, продление молодости и
+                          выстраивание близости с мужем
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Улучшение Вашего либидо за счёт специальных техник
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 7000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide service-clusters__item">
+                    <div class="service-clusters__name">Массаж</div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >1 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Расслабление нервной системы, избавление от стресса,
+                          глубочайший отдых и конечно же, снятие напряжения с
+                          тела за счёт разных и мягких техник, которые зависят
+                          от запроса и деталей
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 5000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide service-clusters__item">
+                    <div class="service-clusters__name">
+                      Остеопатическая <span>косметология</span>
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >1 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Поддержка молодости лица и шеи без вмешательств
+                          инвазивных средств
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Гармонизация лица с помощью мягких техник по работе с
+                          костно-мышечным каркасом
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 6000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide service-clusters__item">
+                    <div class="service-clusters__name">
+                      Нутрицологический прием
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >1 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Получение заряда энергии
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Получение поддержки и помощи в изменениях
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 5000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide service-clusters__item">
+                    <div class="service-clusters__name">
+                      Психотерапевти- <span>ческий прием</span>
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >1 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Проработка беспокоящих конфликтов
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Формирование нового взгляда на происходящее
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 6000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide service-clusters__item">
+                    <div class="service-clusters__name">
+                      Медитация
+                      <span>Майндфуднес</span>
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >1 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Выход из автопилота и постоянного потока мыслей в
+                          голове
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Концентрация на проживании сложных чувств и ситуаций,
+                          которые происходят в жизни
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 3500 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide service-clusters__item">
+                    <div class="service-clusters__name">
+                      Ароматерапия
+                      <span>Аромакод</span>
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >1 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Восстановление общего физиологического равновесия в
+                          организме человека
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Достижение наиболее хорошего психосоматического
+                          состояния
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 7500 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide service-clusters__item">
+                    <div class="service-clusters__name">Цигун</div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >1 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Укрепление физического и эмоционального здоровья
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Знакомство с анатомией и работой с разными группами
+                          мышц
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 3000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-scrollbar service-clusters__scrollbar"></div>
+              </div>
+
+              <div class="service-clusters__content">
+                <div class="service-clusters__content-inner">
+                  <div class="service-clusters__item">
+                    <div class="service-clusters__name">
+                      Остеопатический <span>прием</span>
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >до 5 лет</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Формирование правильной осанки и паттернов движения
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Устранение беспокойного сна.
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Устранение нарушения сосания
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Ликвидация отставания в физическом и психологическом
+                          развитии
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 5000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="service-clusters__item">
+                    <div class="service-clusters__name">
+                      Остеопатический
+                      <span>прием</span>
+                    </div>
+                    <div class="service-clusters__info">
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#time" />
+                        </svg>
+                        <span class="service-clusters__info-text">1 час</span>
+                      </div>
+                      <div class="service-clusters__info-item">
+                        <svg class="service-clusters__info-icon">
+                          <use xlink:href="images/icons/icons.svg#users" />
+                        </svg>
+                        <span class="service-clusters__info-text"
+                          >от 4 человек</span
+                        >
+                      </div>
+                    </div>
+                    <div class="service-clusters__purpose">
+                      <div class="service-clusters__purpose-title">Цель</div>
+                      <ul class="service-clusters__list">
+                        <li class="service-clusters__list-item">
+                          Решение проблем с обучением и капризностью, частыми
+                          головными болями и головокружением
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Решение проблем с сосредоточением и респираторными
+                          заболеваниями
+                        </li>
+                        <li class="service-clusters__list-item">
+                          Работа с заиканием, сколиозом, плоскостопием и с
+                          сомотофорной вегетативной дисфункцией
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="service-clusters__box">
+                      <div class="service-clusters__price">от 6000 ₽</div>
+                      <button class="service-clusters__button" type="button">
+                        <span>Записаться</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="process" id="process">
+        <div class="process__inner">
+          <div class="container">
+            <h2 class="process__title">Процесс</h2>
+            <div class="process__cards">
+              <div class="process__left">
+                <div class="process__card">
+                  <p class="process__text">
+                    Оставьте заявку на сайте или позвоните по телефону
+                  </p>
+                  <div class="process__image">
+                    <svg class="process__icon">
+                      <use
+                        xlink:href="images/icons/icons.svg#process-zayavka"
+                      />
+                    </svg>
+                  </div>
+                  <span>1</span>
+                </div>
+                <div class="process__card">
+                  <p class="process__text">
+                    В назначенный день посетите наш уютный центр
+                  </p>
+                  <svg class="process__image">
+                    <use xlink:href="images/icons/icons.svg#process-date" />
+                  </svg>
+                  <span>3</span>
+                </div>
+              </div>
+              <div class="process__right">
+                <div class="process__card">
+                  <p class="process__text">
+                    Определите совместно с сотрудником подходящую услугу
+                  </p>
+                  <svg class="process__image">
+                    <use
+                      xlink:href="images/icons/icons.svg#process-sotrudnik"
+                    />
+                  </svg>
+                  <span>2</span>
+                </div>
+                <div class="process__card">
+                  <p class="process__text">
+                    Оплатите стоимость сеанса удобным для вас способом
+                  </p>
+                  <svg class="process__image">
+                    <use xlink:href="images/icons/icons.svg#process-payment" />
+                  </svg>
+                  <span>4</span>
+                </div>
+              </div>
+            </div>
+            <a class="process__next next" href="#footer">
+              <div class="next__box">
+                <svg class="next__image">
+                  <use xlink:href="images/icons/icons.svg#next" />
+                </svg>
+              </div>
+              <p class="next__text">Дальше</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer__inner">
+        <div class="container">
+          <div class="footer__form-wrapper">
+            <form class="footer__form">
+              <p class="footer__title">Подпишитесь на e-mail рассылку</p>
+              <p class="footer__text">
+                Получайте первым самые выгодные предложения
+              </p>
+              <input
+                class="footer__email"
+                type="email"
+                placeholder="Ваш e-mail"
+              />
+              <div class="footer__checkbox-wrapper">
+                <input type="checkbox" id="confirm" class="footer__checkbox" />
+                <label for="confirm"
+                  >Я даю согласие на обработку
+                  <span>Персональных данных</span></label
+                >
+              </div>
+              <button class="footer__form-button" type="button">
+                <svg class="footer__form-button-icon">
+                  <use
+                    xlink:href="images/icons/icons.svg#footer-button-icon"
+                  />
+                </svg>
+                <span>Оформить подписку</span>
+              </button>
+            </form>
+          </div>
+          <a class="footer__next next" href="#header">
+            <div class="next__box">
+              <svg class="next__image">
+                <use xlink:href="images/icons/icons.svg#next" />
+              </svg>
+            </div>
+            <p class="next__text">Вверх</p>
+          </a>
+        </div>
+      </div>
+      <div class="footer__socials">
+        <div class="footer__socials-wrapper">
+          <p class="footer__copy">Copyright &#64;РУКИ.Центр</p>
+          <ul class="footer__list">
+            <li class="footer__li">
+              <a href="https://www.facebook.com/centrruki/">
+                <svg class="footer__icon">
+                  <use
+                    xlink:href="images/icons/icons.svg#footer-facebook"
+                  /></svg
+              ></a>
+            </li>
+            <li class="footer__li">
+              <a href="https://wa.me/+79774102748">
+                <svg class="footer__icon">
+                  <use
+                    xlink:href="images/icons/icons.svg#whatsapp-footer"
+                  /></svg
+              ></a>
+            </li>
+            <li class="footer__li">
+              <a href="https://t.me/rukicenter">
+                <svg class="footer__icon">
+                  <use
+                    xlink:href="images/icons/icons.svg#telegram-footer"
+                  /></svg
+              ></a>
+            </li>
+            <li class="footer__li">
+              <a href="https://www.instagram.com/ruki.center/">
+                <svg class="footer__icon">
+                  <use
+                    xlink:href="images/icons/icons.svg#instagram-footer"
+                  /></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
